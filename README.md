@@ -4,4 +4,4 @@ Input:
 -pattern and path
 
 Output:
--
+-pattern
