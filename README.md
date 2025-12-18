@@ -1,8 +1,12 @@
-#### Describe what your program should do
-a program that you give it a pattern and file path and he will give you the pattern
+#### Current Implementation
+a program that you give it a pattern and file(.txt) path and he will give you the pattern
 
-Input:
+#### Future Implementation
+- [ ] works for md files
+- [ ] add web links
+
+* Input:
 -pattern and path
 
-Output:
+* Output:
 -pattern
