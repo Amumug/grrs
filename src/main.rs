@@ -10,6 +10,14 @@ struct Cli {
     path: std::path::PathBuf,
 }
 
+#[test]
+fn check_answer_validity(){
+    fn answer(){
+        println!("test");
+    }
+    assert_eq!(answer(), 42)
+}
+
 fn main() -> Result<()> {
     let args = Cli::parse();
 
