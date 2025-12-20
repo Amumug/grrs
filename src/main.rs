@@ -12,8 +12,8 @@ struct Cli {
 
 #[test]
 fn check_answer_validity(){
-    fn answer(){
-        println!("test");
+    fn answer() -> i32{
+        42
     }
     assert_eq!(answer(), 42)
 }
