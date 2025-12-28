@@ -4,5 +4,5 @@ pub fn find_matches(content: &str, pattern: &str, mut writer: impl std::io::Writ
             writeln!(writer, "{}", line);
         }
     }
-    Err(error) => println!("Error: {}", error)
+    // Err(error) => println!("Error: {}", error)
 }
